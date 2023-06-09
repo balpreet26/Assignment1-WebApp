@@ -1,0 +1,78 @@
+<%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+
+        <!-- 
+            Name: Balpreet Kaur
+            Student Id: 301271967
+            Program: Software Engineering Technician
+            Date: June 9, 2023
+            Assignment 1
+         -->
+
+        <main class="ontainer">
+            <div class="jumbotron">
+
+                <style>
+                    div.about {
+                        margin: 50px 80px 20px 80px;
+                        padding: 50px 50px 50px 45px;
+                        border: 2px solid rgb(161, 161, 161);
+                        box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+                        display: flex;
+                        flex-direction: row-reverse;
+
+                    }
+
+                    div p {
+                        margin: 110px 125px 20px 100px;
+                    }
+
+                    div img.image {
+                        margin-left: 8px;
+                        margin-right: 0;
+                        width: 280px;
+                        border: 2px solid rgb(161, 161, 161);
+                        box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+                        padding: 2px;
+                    }
+
+                    div a.resume-pdf {
+                        display: inline-block;
+                        text-decoration: none;
+                        color: white;
+                        padding: 10px 80px;
+                        border: 2px solid rgb(161, 161, 161);
+                        box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+                        border-radius: 24px;
+                        text-align: center;
+                        margin: 20px 6px 6px 120px;
+                    }
+
+                    div a.resume-pdf:hover {
+                        color: gray;
+                    }
+                </style>
+
+                <div class="about">
+                    <img class="image" src="/img/profile.jpeg" alt="Image">
+                    <div class="aboutme">
+                        <h3 class="main-title">
+                            About Me
+                        </h3>
+                        <p>
+                            My name is Balpreet Kaur (301271967). <br>
+                            I am currently a enrolled in Software Engineering Technician Program at Centennial College.
+                            <br>
+                            Basically, I am from Punjab, India. <br>
+                            My intrests are travelling, coding and being around nature.
+                        </p>
+                        <a class="resume-pdf" href="/img/Resume.pdf">Resume</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>

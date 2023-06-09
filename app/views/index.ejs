@@ -1,0 +1,78 @@
+<%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+
+
+        <!-- 
+            Name: Balpreet Kaur
+            Student Id: 301271967
+            Program: Software Engineering Technician
+            Date: June 9, 2023
+            Assignment 1
+         -->
+
+
+        <style>
+            section.homepage-section {
+                color: white;
+                margin: 50px 80px 20px 80px;
+                padding: 50px 0 50px 45px;
+                border: 2px solid rgb(161, 161, 161);
+                box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+            }
+
+            div.page-link {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            a.link-pages {
+                text-decoration: none;
+                color: white;
+                padding: 10px 80px;
+                border: 2px solid rgb(161, 161, 161);
+                box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+                border-radius: 24px;
+                text-align: center;
+                margin: 10px 35px;
+            }
+
+            div a.link-pages:hover {
+                color: grey;
+            }
+
+            div.image-link {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+        <main class="ontainer">
+            <div class="jumbotron">
+
+                <!-- Welcome  -->
+                <section class="homepage-section">
+                    <div class="welcome-page">
+                        <h3 class="main-intro">Welcome Everyone...</h3>
+                        <h3 class="main-name">My name is <b>Balpreet Kaur</b></h3>
+                        <h3 class="main-about">And I am a <b>Student</b> of <i>Centennial College</i>.</h3>
+                    </div>
+                </section>
+
+                <!-- Link to other Pages -->
+                <div class="page-link"></div>
+
+                <div class="image-link link1"><a class="link-pages" href="/about"><i
+                            class="fa-solid fa-address-card"></i>About</a></div>
+                <div class="image-link link2"><a class="link-pages" href="/services"><i
+                            class="fa-solid fa-address-card"></i>Services</a></div>
+                <div class="image-link link3"><a class="link-pages" href="/products"><i
+                            class="fa-solid fa-address-card"></i>Projects</a></div>
+                <div class="image-link link4"><a class="link-pages" href="/contact"><i
+                            class="fa-solid fa-address-card"></i>Contact</a></div>
+            </div>
+            </div>
+        </main>
+
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>

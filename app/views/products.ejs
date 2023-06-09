@@ -1,0 +1,104 @@
+<%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+
+        <!-- 
+            Name: Balpreet Kaur
+            Student Id: 301271967
+            Program: Software Engineering Technician
+            Date: June 9, 2023
+            Assignment 1
+         -->
+
+        <style>
+            h3.projects-heading {
+                margin: 50px 80px 20px 80px;
+            }
+
+            p.projects-intro {
+                margin: 10px 80px 20px 80px;
+            }
+
+            div.projects {
+                display: flex;
+                flex-direction: row;
+                margin: 50px 80px 20px 80px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            div.project-img {
+                border: 2px solid rgb(161, 161, 161);
+                box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+                margin: 10px 20px 10px 20px;
+                padding: 2px 2px 6px 2px;
+                border-radius: 10px;
+            }
+
+            div.project-img img {
+                margin: 0 0 10px 0;
+                width: 390px;
+                height: 250px;
+            }
+
+            div.project-img h6 {
+                text-align: center;
+                padding: 6px;
+            }
+
+            div.project-img a.project-link {
+                display: flex;
+                text-decoration: none;
+                color: white;
+                padding: 5px 120px;
+                border: 2px solid rgb(161, 161, 161);
+                box-shadow: 0 0 5px 2px rgba(243, 243, 243, 0.3);
+                border-radius: 24px;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+
+            div.project-img a.project-link:hover {
+                color: grey;
+            }
+        </style>
+
+        <main class="ontainer">
+            <div class="jumbotron">
+
+                <div class="project-page">
+                    <h3 class="projects-heading">
+                        Projects
+                    </h3>
+                    <p class="projects-intro">
+                        These are the recent projects I have done during my second semester:
+                    </p>
+                    <div class="projects">
+                        <div class="project-img">
+                            <h6>Clock</h6>
+                            <img src="/img/clock.jpg" alt="Image">
+                            <br>
+                            <a class="project-link" href="/img/project1/index.html">View Project</a>
+                        </div>
+
+                        <div class="project-img">
+                            <h6>To-Do List</h6>
+                            <img src="/img/todo.jpg" alt="Image">
+                            <br>
+                            <a class="project-link" href="/img/project2/index.html">View Project</a>
+                        </div>
+
+                        <div class="project-img">
+                            <h6>Convert Days to Minutes</h6>
+                            <img src="/img/days-to-minutes.jpg" alt="Image">
+                            <br>
+                            <a class="project-link" href="/img/project3/index.html">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>

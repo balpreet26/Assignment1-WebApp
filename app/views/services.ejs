@@ -1,0 +1,48 @@
+<%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+
+        <!-- 
+            Name: Balpreet Kaur
+            Student Id: 301271967
+            Program: Software Engineering Technician
+            Date: June 9, 2023
+            Assignment 1
+         -->
+
+        <style>
+            div.services {
+                margin: 50px 80px 20px 80px;
+            }
+
+            div p.para {
+                margin: 12px 0 0 12px;
+            }
+
+            div ul.service-list {
+                margin: 20px 0 0 20px;
+            }
+        </style>
+
+        <main class="ontainer">
+            <div class="jumbotron">
+
+                <div class="services">
+                    <h3>
+                        <%= title %>:
+                    </h3>
+                    <p class="para">These are main service I provide:</p>
+                    <ul class="service-list">
+                        <li>Web Development</li>
+                        <li>App Development</li>
+                        <li>Software Design</li>
+                        <li>Social Media Marketing</li>
+                        <li>Email Marketing</li>
+                        <li>SEO Expert</li>
+                        <li>Advance DataBase</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>
